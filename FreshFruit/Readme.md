@@ -9,8 +9,11 @@ Aplikasi sederhana tentang banyaknya buah yang bisa dimasukkan ke dalam keranjan
 ## Tugas
 1. Fungsi dari `BucketEventListener`?
 Sebagai tempat untuk handle event ketika action dijalankan berhasil (onSucceed) atau gagal (onFailed).
+
 2. Class Diagram
+
 ![ClassDiagram](https://user-images.githubusercontent.com/61905689/99499979-45608800-29ac-11eb-9263-fccf7f1333be.jpg)
+
 3. Pembahasan Alur dan Logika Pemprograman
 Ada beberapa class yaitu `Fruit.cs`, `Seller.cs`, `Bucket.cs`,`BucketController.cs`, dan `BucketEventListener.cs`. 
 `Fruit.cs` digunakan untuk menampung macam buah, kemudian pada `Seller.cs` digunakan untuk mengatur seller apakah dia akan menambah ataupun menghapus buah dari keranjang,  
